@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=document.getElementById("root"),e=new class{list(t){}get(t,e){}create(t,e){}update(t,e,n){}delete(t,e){}},n=new class{constructor(t,e){if(!(t instanceof HTMLElement))throw new Error("This is not HTML element!");this.container=t,this.ticketService=e}init(){console.info("init")}}(t,e);n.init()})();
