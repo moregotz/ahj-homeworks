@@ -15,14 +15,14 @@
   "engines": {
     "node": ">=16.0.0 <22.0.0"
   },
-  "author": "",
+  "author": "moregotz",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "7.21.0",
-    "@babel/core": "7.21.3",
-    "@babel/preset-env": "7.20.2",
-    "babel-loader": "9.1.2",
-    "css-loader": "6.7.3",
+    "@babel/core": "^8.1.0",
+    "@babel/preset-env": "^8.0.7",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^6.7.3",
     "eslint": "8.36.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.8.0",
@@ -36,6 +36,7 @@
     "mini-css-extract-plugin": "2.7.5",
     "prettier": "2.8.7",
     "start-server-and-test": "2.0.0",
+    "style-loader": "^4.0.0",
     "terser-webpack-plugin": "5.3.7",
     "url-loader": "4.1.1",
     "webpack": "5.76.3",

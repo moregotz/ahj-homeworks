@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.helpdesk {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(176, 173, 189);
+}
+
+.helpdesk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.helpdesk-title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2e4193;
+    letter-spacing: 0.5px;
+}
+
+.add-ticket-btn {
+    float: right;
+    padding: 10px 20px;
+    background: #eaeaea;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.add-ticket-btn:hover {
+    background: #bec6d8;
+}
+
+.ticket-list {
+    clear: both;
+}
+
+.ticket {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.ticket input[type="checkbox"] {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.ticket-name {
+    flex: 1;
+    cursor: pointer;
+}
+
+.ticket-name:hover {
+    text-decoration: underline;
+}
+
+.ticket-date {
+    margin: 0 15px;
+    color: #666;
+}
+
+.edit-btn,
+.delete-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background: #f0f0f0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    min-width: 400px;
+}
+
+.ticket-form input,
+.ticket-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.ticket-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.modal-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-buttons button[type="submit"] {
+    background: #eaeaea;
+    color: #000000;
+}
+
+.modal-buttons .cancel-btn {
+    background: #f7baba;
+    color: #000000;
+}
