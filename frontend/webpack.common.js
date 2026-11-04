@@ -5,12 +5,12 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './',
+    publicPath: '/',
     filename: 'bundle.js',
   },
   devServer: {
     open: true,
-    port: 7070,
+    port: 8080,
     hot: true,
   },
   module: {

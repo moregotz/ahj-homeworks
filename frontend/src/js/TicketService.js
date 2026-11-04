@@ -3,7 +3,7 @@
  *  Содержит методы для отправки запросов на сервер и получения ответов
  * */
 export default class TicketService {
-  constructor(baseUrl = 'http://localhost:7070') {
+  constructor(baseUrl = 'http://localhost:8080') {
     this.baseUrl = baseUrl;
   }
 
