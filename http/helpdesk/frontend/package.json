@@ -10,7 +10,7 @@
     "prettier:fix": "prettier --write src/",
     "test": "jest",
     "coverage": "jest --coverage",
-    "ci": "start-test :8080 test"
+    "ci": "start-test :7070 test"
   },
   "engines": {
     "node": ">=16.0.0 <22.0.0"
